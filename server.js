@@ -19,7 +19,7 @@ app.use( (request, response, next) => {
   })
   console.log(log)
   next()
-})
+});
 
 // //omit the next() call to prevent the execution of anything after this middleware call
 // app.use((request, response, next) => {
